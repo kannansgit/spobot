@@ -364,7 +364,7 @@ graph.getUsers = function (token) {
   return deferred.promise;
 };
 
-/**
+/***
  * Get user by email
  * @param {*} token to append in the header in order to make the request
  * @param {*} email the email of the user
