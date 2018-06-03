@@ -60,7 +60,7 @@ bot.set('storage', tableStorage);
 bot.dialog('/', [
   function (session) {
     if (session.privateConversationData["welcome"]) {
-      session.send("Hi I'm your SharePoint Bot to assist you to request a new SharePoint site or Teams, what do you want to request?");
+      session.send("Hi, I'm your SharePoint Bot to assist you to request a new SharePoint site or Teams, what do you want to request?");
     }
     session.privateConversationData["welcome"] = 'true';
     session.beginDialog('makeYourChoice');
