@@ -201,7 +201,7 @@ bot.dialog('askForOwner', [
     var question = '';
     var msg = '';
     if (args && args.reprompt) {
-      question = 'The user doesn\'t exists, please insert a valid email';
+      question = 'The user doesn\'t exist, please insert a valid email';
       msg = new builder.Message(session)
         .speak(question)
         .text(question);
