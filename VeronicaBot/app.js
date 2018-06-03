@@ -508,7 +508,7 @@ auth.getAccessToken = function () {
   };
 
   console.log(requestParams);
-  console.log(config.tokenEndpoint);
+  console.log(config);
   /**
    * post: Make a request to the token issuing endpoint
    */
