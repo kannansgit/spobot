@@ -1,7 +1,7 @@
 # Set your own values here
-$SiteCollectionUrl = "<your site collection url>"
-$BotId = "<your bot id>"
-$BotDirectLineSecret = "<your bot direct line secret>"
+$SiteCollectionUrl = "https://sydspdeveloper.sharepoint.com/sites/ModernTeam"
+$BotId = "spopocappbot"
+$BotDirectLineSecret = "TIkHNom6yjQ.cwA.yRw.DrX8jHNRovsZPOoV90L75az7WaX9fhYkHs-2RqNqJ1w"
 
 Connect-PnPOnline -Url $SiteCollectionUrl -UseWebLogin
 
