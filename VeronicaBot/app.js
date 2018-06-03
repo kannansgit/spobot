@@ -29,8 +29,8 @@ var connector = new builder.ChatConnector({
 
 // Config
 var config = {
-  'clientId': process.env.AAD_CLIENT_ID, // The client Id retrieved from the Azure AD App
-  'clientSecret': process.env.AAD_CLIENT_SECRET, // The client secret retrieved from the Azure AD App
+  'clientId': process.env.WEBSITE_AUTH_CLIENT_ID, // The client Id retrieved from the Azure AD App
+  'clientSecret': process.env.WEBSITE_AUTH_CLIENT_SECRET, // The client secret retrieved from the Azure AD App
   'tenant': process.env.TENANT, // The tenant Id or domain name (e.g mydomain.onmicrosoft.com)
   'tokenEndpoint': process.env.tokenEndpoint, // This URL will be used for the Azure AD Application to send the authorization code.
   'resource': process.env.RESOURCE, // The resource endpoint we want to give access to (in this case, SharePoint Online)
